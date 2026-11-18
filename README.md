@@ -63,13 +63,3 @@ python -m http.server 8000
 
 Then open http://localhost:8000.
 
-## Deploy to GitHub Pages
-
-1. Create a new public repository on GitHub and upload all files from this folder
-   (`index.html` must be in the root of the repository).
-2. Open **Settings → Pages**.
-3. Under **Build and deployment** choose **Deploy from a branch**, branch `main`, folder `/ (root)`, and press **Save**.
-4. After 1–2 minutes the site is live at `https://<username>.github.io/<repository>/`.
-
-> Note: user accounts are only a simulation for this project. Passwords are stored in the
-> browser's localStorage, which a real website must never do.
